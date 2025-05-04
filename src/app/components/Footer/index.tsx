@@ -1,0 +1,32 @@
+import { Circle, CircleDot, Dot, Instagram, Mail, MessageCirclePlus } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import Image from "next/image"
+import Link from "next/link"
+
+const Footer = () => {
+    return(
+        <>
+        <div className="pt-7 pb-2 px-4">
+        <div className="flex flex-col justify-center items-center mb-8 space-y-3">
+        <h1 className="text-4xl font-bold">Let's Work Together</h1>
+        <h2 className="opacity-50 text-xl">Unleash your creative idea into real product</h2>
+        {/* <div className="space-x-4">
+                    <Button variant="outline"><Mail/>Copy Email</Button>
+                    <Button><MessageCirclePlus/>Hire Me</Button>
+                </div> */}
+        </div>
+        <div className="flex flex-row justify-between text-xl mb-2 bg-[#f0f0f0] py-7 px-4 rounded-xl">
+            <div className="flex flex-row items-center justify-start opacity-70 space-x-3"><Circle className="w-2 bg-black rounded-4xl h-2 opacity-30"/><h1>Follow Me</h1></div>
+            <div className=" flex flex-row items-center opacity-70 space-x-3 text-sm rounded-full w-50 justify-end pr-5 hover:opacity-100"><Link href="https://instagram.com/ryovanda"><Instagram/></Link></div>
+        </div>
+        <div className="flex flex-row justify-center text-xl bg-[#f0f0f0] py-7 px-4 rounded-xl">
+            <div>
+                <h1 className="text-sm flex items-center opacity-50">© 2025 - Ryan Yovanda</h1>
+            </div>
+        </div>
+        </div>
+        </>
+    )
+}
+
+export default Footer
