@@ -1,6 +1,4 @@
-import { Circle, CircleDot, Dot, Instagram, Mail, MessageCirclePlus } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { Circle, Instagram} from "lucide-react"
 import Link from "next/link"
 
 const Footer = () => {
@@ -8,7 +6,7 @@ const Footer = () => {
         <>
         <div className="pt-7 pb-2 px-4">
         <div className="flex flex-col justify-center items-center mb-8 space-y-3">
-        <h1 className="text-4xl font-bold">Let's Work Together</h1>
+        <h1 className="text-4xl font-bold">Let&apos;s Work Together</h1>
         <h2 className="opacity-50 text-xl">Unleash your creative idea into real product</h2>
         {/* <div className="space-x-4">
                     <Button variant="outline"><Mail/>Copy Email</Button>

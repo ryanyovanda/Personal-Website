@@ -1,8 +1,8 @@
-import { ArrowBigRight, ArrowUpRight, Circle, CircleDot, Dot, Mail, MessageCirclePlus, MoveRight, SquareArrowOutUpRight } from "lucide-react"
+import { Circle,  MoveRight, SquareArrowOutUpRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
-import { Project, projectList } from "@/types/projects"
+import { projectList } from "@/types/projects"
 
 const Projects = () => {
     return(
