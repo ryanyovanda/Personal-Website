@@ -1,19 +1,9 @@
 "use client"
 
-import { useState } from "react"
-import { Circle, Mail, MessageCirclePlus } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Circle} from "lucide-react"
 import Image from "next/image"
 
 const AboutMe = () => {
-  const [copied, setCopied] = useState(false)
-
-  const handleCopy = () => {
-    navigator.clipboard.writeText("ryanyovanda@gmail.com")
-    setCopied(true)
-    setTimeout(() => setCopied(false), 2000)
-  }
-
   return (
     <>
       <div className="py-7 px-4">
@@ -28,7 +18,7 @@ const AboutMe = () => {
                 <h1>Its Me Ryan </h1>
             </div>
             <div>
-                <p className="leading-relaxed opacity-50">I'm Ryan Yovanda, a fullstack developer based in Bandung, Indonesia, with a strong background in 
+                <p className="leading-relaxed opacity-50">I&apos;m Ryan Yovanda, a fullstack developer based in Bandung, Indonesia, with a strong background in 
                     backend and frontend technologies. With hands-on experience building scalable web applications—from
                      admin dashboards to Saas App—I focus on developing purposeful digital solutions that simplify 
                      complex processes. I enjoy transforming technical challenges into seamless user experiences, bridging 
