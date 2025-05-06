@@ -13,16 +13,16 @@ const Education = () => {
 
         {educationList.map((education, index) => (
         <Link href={education.href} key={index}>
-        <div className="flex flex-row bg-white h-24 py-4 px-8 items-center rounded-xl space-x-5 shadow-sm hover:outline-5 outline-gray-300 duration-300 mb-4">
+        <div className="flex flex-row bg-white md:h-24 h-fit py-4 px-8 items-center rounded-xl space-x-5 shadow-sm hover:outline-5 outline-gray-300 duration-300 mb-4">
             <div className=""><Image src={education.logo} alt={`${education.title} logo`} width={50} height={50} className="rounded-xl outline-8 outline-gray-100"></Image></div>
             <div className="flex flex-col flex-grow  ">
-                <div className="text-xl font-bold opacity-70">{education.title}</div>
-                <div className="flex flex-row justify-between">
+                <div className="text-md md:text-xl font-bold opacity-70">{education.title}</div>
+                <div className="flex flex-col md:flex-row justify-between">
                 <div className="opacity-50">{education.description}</div>
                 <div className="bg-green-100 text-green-700 w-32 rounded-xl flex justify-center text-sm items-center">{education.score}</div>
                 </div>
             </div>
-            <div className="flex opacity-35 hover:opacity-100 transition-all duration-300">
+            <div className="flex opacity-35 hover:opacity-100 transition-all duration-300 w-3 md:w-fit">
                 <SquareArrowOutUpRight/>
             </div>
          </div>

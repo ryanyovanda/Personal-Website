@@ -17,16 +17,16 @@ const Experience = () => {
                 {experienceList.map((experience, index) => (
                     <AccordionItem value={`item-${index}`} key={index}>
                         <AccordionTrigger className="hover:no-underline [&>svg]:hidden">
-                            <div className="flex flex-row bg-white h-24 py-4 px-8 items-center rounded-xl space-x-5 shadow-sm w-full">
+                            <div className="flex flex-row bg-white h-fit md:h-24 py-4 px-8 items-center rounded-xl space-x-5 shadow-sm w-full">
                                 <div>
                                     <Image src={experience.logo} alt={`${experience.title} logo`} width={50} height={50} className="rounded-xl outline-8 outline-gray-100" />
                                 </div>
                                 <div className="flex flex-col flex-grow">
-                                    <div className="text-xl font-bold opacity-70 text-left">{experience.title}</div>
-                                    <div className="flex flex-row justify-between">
+                                    <div className="text-md md:text-xl font-bold opacity-70 text-left">{experience.title}</div>
+                                    <div className="flex flex-col md:flex-row-reverse justify-between">
+                                    <div className="bg-green-100 text-green-700 w-32 rounded-xl  flex justify-center text-sm items-center">{experience.status}</div>
                                         <div className="opacity-50">{experience.position}</div>
-                                        <div className="bg-green-100 text-green-700 w-32 rounded-xl flex justify-center text-sm items-center">{experience.status}</div>
-                                    </div>
+                                           </div>
                                     <div className="opacity-50">{experience.period}</div>
                                 </div>
                                 <div className="text-gray-400 hover:text-gray-800">

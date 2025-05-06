@@ -8,8 +8,8 @@ const NavBar = () => {
             <div className="flex flex-row space-x-8 ">
                 <Link href="/" className="opacity-35 hover:opacity-100 duration-300 active:opacity-100 "><House/></Link>
                 <Link href="/about" className="opacity-35 hover:opacity-100 duration-300"><CircleUserRound/></Link>
-                <Link href="/portfolio" className="opacity-35 hover:opacity-100 duration-300"><AppWindow/></Link>
-                <Link href="/portfolio" className="opacity-35 hover:opacity-100 duration-300"><Github/></Link>
+                <Link href="/project" className="opacity-35 hover:opacity-100 duration-300"><AppWindow/></Link>
+                <Link href="https://github.com/ryanyovanda" className="opacity-35 hover:opacity-100 duration-300"><Github/></Link>
             </div>
             <div>
             <Button asChild>
