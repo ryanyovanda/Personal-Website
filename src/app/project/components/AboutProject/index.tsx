@@ -18,7 +18,7 @@ const AboutProject = () => {
             </div>
             <div>
                 <p className="leading-relaxed opacity-50">Designing with intent. Building with impact.
-                Each project in my portfolio is more than just code—it's a response to real-world challenges. I focus on building digital experiences that are intuitive, efficient, and human-centered—turning complexity into clarity, and ideas into interfaces that matter.
+                Each project in my portfolio is more than just code—it&apos;s a response to real-world challenges. I focus on building digital experiences that are intuitive, efficient, and human-centered—turning complexity into clarity, and ideas into interfaces that matter.
                      </p>
             </div>
         </div>

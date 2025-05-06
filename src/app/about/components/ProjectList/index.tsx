@@ -1,5 +1,4 @@
-import { Circle,  MoveRight, SquareArrowOutUpRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Circle, SquareArrowOutUpRight } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { projectList } from "@/types/projects"
