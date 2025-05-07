@@ -37,7 +37,7 @@ const Bio = () => {
             </div>
             <div>
               <p className="opacity-50 space-y-8 break-after-all">
-                Fullstack Developer from Bandung, ID. Currently active finding new opportunity.
+                Fullstack Developer from Bandung, ID. Currently developing a project that combines design and solid engineering.
               </p>
             </div>
             <div className="space-x-4">

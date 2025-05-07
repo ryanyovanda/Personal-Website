@@ -11,19 +11,19 @@ export interface Project {
       title: "Om Kasir",
       description: "Point of Sales Saas App",
       logo: "/om-kasir-logo.png",
-      href: "/omkasir",
+      href: "/project/omkasir",
     },
     {
       title: "Airgoda",
       description: "Property Renting App",
       logo: "/airgoda-logo.png",
-      href: "/airgoda",
+      href: "/project/airgoda",
     },
     {
         title: "Vanda Studio",
         description: "Company Profile Website",
         logo: "/vanda-studio-logo.png",
-        href: "/vandastudio",
+        href: "/project/vandastudio",
       },
 
   ]
