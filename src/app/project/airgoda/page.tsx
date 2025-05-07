@@ -25,10 +25,10 @@ export default function profile() {
             </div>
             <div className="flex flex-row space-x-2">
             <div className="flex flex-row bg-gray-100 p-2 w-fit rounded-sm hover:opacity-50">
-                <Link href="bit.ly/AirgodaFE" className="flex flex-row"><Github/> Github Frontend</Link>
+                <Link href="https://bit.ly/AirgodaFE" target="_blank" className="flex flex-row"><Github/> Github Frontend</Link>
             </div>
             <div className="flex flex-row bg-gray-100 p-2 w-fit rounded-sm hover:opacity-50">
-                <Link href="bit.ly/AirgodaFE" className="flex flex-row"><Github/> Github Backend</Link>
+                <Link href="https://bit.ly/AirgodaBE" className="flex flex-row"><Github/> Github Backend</Link>
             </div>
             </div>
             <div className=" mt-4">

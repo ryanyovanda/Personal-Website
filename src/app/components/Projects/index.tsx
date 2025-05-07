@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="pt-7 pb-2 px-4 bg-[#f0f0f0] rounded-xl">
         <div className="flex flex-row justify-between text-xl mb-8">
             <div className="flex flex-row items-center justify-start opacity-70 space-x-3"><Circle className="w-2 bg-black rounded-4xl h-2 opacity-30"/><h1>Projects</h1></div>
-            <div className="flex flex-row items-center space-x-3"><Button>View All <MoveRight/></Button></div>
+            <div className="flex flex-row items-center space-x-3"><a href="/project"><Button> View All <MoveRight/></Button></a></div>
         </div>
 
         {projectList.map((project, index) => (

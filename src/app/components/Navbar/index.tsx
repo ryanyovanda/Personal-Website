@@ -9,7 +9,7 @@ const NavBar = () => {
                 <Link href="/" className="opacity-35 hover:opacity-100 duration-300 active:opacity-100 "><House/></Link>
                 <Link href="/about" className="opacity-35 hover:opacity-100 duration-300"><CircleUserRound/></Link>
                 <Link href="/project" className="opacity-35 hover:opacity-100 duration-300"><AppWindow/></Link>
-                <Link href="https://github.com/ryanyovanda" className="opacity-35 hover:opacity-100 duration-300"><Github/></Link>
+                <Link href="https://github.com/ryanyovanda" target="_blank" className="opacity-35 hover:opacity-100 duration-300"><Github/></Link>
             </div>
             <div>
             <Button asChild>

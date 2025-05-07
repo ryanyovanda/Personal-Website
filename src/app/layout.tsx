@@ -5,7 +5,7 @@ import NavBar from "./components/Navbar";
 
 
 export const metadata: Metadata = {
-  title: "Ryan Yovanda",
+  title: "Ryan Yovanda | Home ",
   description: "Create with love",
 };
 
