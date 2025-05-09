@@ -13,14 +13,14 @@ export interface Education {
       description: "Software Engineer",
       score: "Score: 88/100",
       logo: "/purwadhika_logo.jpeg",
-      href: "/omkasir",
+      href: "https://purwadhika.com/",
     },
     {
       title: "Indonesia University of Education",
       description: "Educational Technology",
       score: "GPA: 3.70/4.00",
       logo: "/upi-logo.png",
-      href: "/airgoda",
+      href: "https://www.upi.edu/",
     },
 
   ]
